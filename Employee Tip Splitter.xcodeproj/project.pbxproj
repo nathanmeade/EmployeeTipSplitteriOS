@@ -14,6 +14,7 @@
 		8B94140129C96FA8001E679F /* Employee_Tip_SplitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94140029C96FA8001E679F /* Employee_Tip_SplitterTests.swift */; };
 		8B94140B29C96FA8001E679F /* Employee_Tip_SplitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94140A29C96FA8001E679F /* Employee_Tip_SplitterUITests.swift */; };
 		8B94140D29C96FA8001E679F /* Employee_Tip_SplitterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94140C29C96FA8001E679F /* Employee_Tip_SplitterUITestsLaunchTests.swift */; };
+		8B94141A29C970AF001E679F /* TipSharingCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94141929C970AF001E679F /* TipSharingCalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8B94140629C96FA8001E679F /* Employee Tip SplitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Employee Tip SplitterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B94140A29C96FA8001E679F /* Employee_Tip_SplitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_Tip_SplitterUITests.swift; sourceTree = "<group>"; };
 		8B94140C29C96FA8001E679F /* Employee_Tip_SplitterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_Tip_SplitterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B94141929C970AF001E679F /* TipSharingCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipSharingCalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8B9413EF29C96FA5001E679F /* Employee_Tip_SplitterApp.swift */,
 				8B9413F129C96FA5001E679F /* ContentView.swift */,
+				8B94141929C970AF001E679F /* TipSharingCalculatorViewController.swift */,
 				8B9413F329C96FA7001E679F /* Assets.xcassets */,
 				8B9413F529C96FA7001E679F /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B94141A29C970AF001E679F /* TipSharingCalculatorViewController.swift in Sources */,
 				8B9413F229C96FA5001E679F /* ContentView.swift in Sources */,
 				8B9413F029C96FA5001E679F /* Employee_Tip_SplitterApp.swift in Sources */,
 			);
