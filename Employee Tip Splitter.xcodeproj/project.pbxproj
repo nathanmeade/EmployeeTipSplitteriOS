@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B9413F029C96FA5001E679F /* Employee_Tip_SplitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9413EF29C96FA5001E679F /* Employee_Tip_SplitterApp.swift */; };
+		8B9413F229C96FA5001E679F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9413F129C96FA5001E679F /* ContentView.swift */; };
+		8B9413F429C96FA7001E679F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9413F329C96FA7001E679F /* Assets.xcassets */; };
+		8B9413F729C96FA7001E679F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9413F629C96FA7001E679F /* Preview Assets.xcassets */; };
+		8B94140129C96FA8001E679F /* Employee_Tip_SplitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94140029C96FA8001E679F /* Employee_Tip_SplitterTests.swift */; };
+		8B94140B29C96FA8001E679F /* Employee_Tip_SplitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94140A29C96FA8001E679F /* Employee_Tip_SplitterUITests.swift */; };
+		8B94140D29C96FA8001E679F /* Employee_Tip_SplitterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B94140C29C96FA8001E679F /* Employee_Tip_SplitterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B9413FD29C96FA8001E679F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9413E429C96FA5001E679F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9413EB29C96FA5001E679F;
+			remoteInfo = "Employee Tip Splitter";
+		};
+		8B94140729C96FA8001E679F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9413E429C96FA5001E679F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9413EB29C96FA5001E679F;
+			remoteInfo = "Employee Tip Splitter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B9413EC29C96FA5001E679F /* Employee Tip Splitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Employee Tip Splitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9413EF29C96FA5001E679F /* Employee_Tip_SplitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_Tip_SplitterApp.swift; sourceTree = "<group>"; };
+		8B9413F129C96FA5001E679F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B9413F329C96FA7001E679F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B9413F629C96FA7001E679F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B9413FC29C96FA8001E679F /* Employee Tip SplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Employee Tip SplitterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B94140029C96FA8001E679F /* Employee_Tip_SplitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_Tip_SplitterTests.swift; sourceTree = "<group>"; };
+		8B94140629C96FA8001E679F /* Employee Tip SplitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Employee Tip SplitterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B94140A29C96FA8001E679F /* Employee_Tip_SplitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_Tip_SplitterUITests.swift; sourceTree = "<group>"; };
+		8B94140C29C96FA8001E679F /* Employee_Tip_SplitterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_Tip_SplitterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B9413E929C96FA5001E679F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9413F929C96FA8001E679F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94140329C96FA8001E679F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B9413E329C96FA5001E679F = {
+			isa = PBXGroup;
+			children = (
+				8B9413EE29C96FA5001E679F /* Employee Tip Splitter */,
+				8B9413FF29C96FA8001E679F /* Employee Tip SplitterTests */,
+				8B94140929C96FA8001E679F /* Employee Tip SplitterUITests */,
+				8B9413ED29C96FA5001E679F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B9413ED29C96FA5001E679F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B9413EC29C96FA5001E679F /* Employee Tip Splitter.app */,
+				8B9413FC29C96FA8001E679F /* Employee Tip SplitterTests.xctest */,
+				8B94140629C96FA8001E679F /* Employee Tip SplitterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B9413EE29C96FA5001E679F /* Employee Tip Splitter */ = {
+			isa = PBXGroup;
+			children = (
+				8B9413EF29C96FA5001E679F /* Employee_Tip_SplitterApp.swift */,
+				8B9413F129C96FA5001E679F /* ContentView.swift */,
+				8B9413F329C96FA7001E679F /* Assets.xcassets */,
+				8B9413F529C96FA7001E679F /* Preview Content */,
+			);
+			path = "Employee Tip Splitter";
+			sourceTree = "<group>";
+		};
+		8B9413F529C96FA7001E679F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B9413F629C96FA7001E679F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B9413FF29C96FA8001E679F /* Employee Tip SplitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B94140029C96FA8001E679F /* Employee_Tip_SplitterTests.swift */,
+			);
+			path = "Employee Tip SplitterTests";
+			sourceTree = "<group>";
+		};
+		8B94140929C96FA8001E679F /* Employee Tip SplitterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B94140A29C96FA8001E679F /* Employee_Tip_SplitterUITests.swift */,
+				8B94140C29C96FA8001E679F /* Employee_Tip_SplitterUITestsLaunchTests.swift */,
+			);
+			path = "Employee Tip SplitterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B9413EB29C96FA5001E679F /* Employee Tip Splitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B94141029C96FA8001E679F /* Build configuration list for PBXNativeTarget "Employee Tip Splitter" */;
+			buildPhases = (
+				8B9413E829C96FA5001E679F /* Sources */,
+				8B9413E929C96FA5001E679F /* Frameworks */,
+				8B9413EA29C96FA5001E679F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Employee Tip Splitter";
+			productName = "Employee Tip Splitter";
+			productReference = 8B9413EC29C96FA5001E679F /* Employee Tip Splitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B9413FB29C96FA8001E679F /* Employee Tip SplitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B94141329C96FA8001E679F /* Build configuration list for PBXNativeTarget "Employee Tip SplitterTests" */;
+			buildPhases = (
+				8B9413F829C96FA8001E679F /* Sources */,
+				8B9413F929C96FA8001E679F /* Frameworks */,
+				8B9413FA29C96FA8001E679F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9413FE29C96FA8001E679F /* PBXTargetDependency */,
+			);
+			name = "Employee Tip SplitterTests";
+			productName = "Employee Tip SplitterTests";
+			productReference = 8B9413FC29C96FA8001E679F /* Employee Tip SplitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B94140529C96FA8001E679F /* Employee Tip SplitterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B94141629C96FA8001E679F /* Build configuration list for PBXNativeTarget "Employee Tip SplitterUITests" */;
+			buildPhases = (
+				8B94140229C96FA8001E679F /* Sources */,
+				8B94140329C96FA8001E679F /* Frameworks */,
+				8B94140429C96FA8001E679F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B94140829C96FA8001E679F /* PBXTargetDependency */,
+			);
+			name = "Employee Tip SplitterUITests";
+			productName = "Employee Tip SplitterUITests";
+			productReference = 8B94140629C96FA8001E679F /* Employee Tip SplitterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B9413E429C96FA5001E679F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8B9413EB29C96FA5001E679F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8B9413FB29C96FA8001E679F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8B9413EB29C96FA5001E679F;
+					};
+					8B94140529C96FA8001E679F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8B9413EB29C96FA5001E679F;
+					};
+				};
+			};
+			buildConfigurationList = 8B9413E729C96FA5001E679F /* Build configuration list for PBXProject "Employee Tip Splitter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B9413E329C96FA5001E679F;
+			productRefGroup = 8B9413ED29C96FA5001E679F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B9413EB29C96FA5001E679F /* Employee Tip Splitter */,
+				8B9413FB29C96FA8001E679F /* Employee Tip SplitterTests */,
+				8B94140529C96FA8001E679F /* Employee Tip SplitterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B9413EA29C96FA5001E679F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9413F729C96FA7001E679F /* Preview Assets.xcassets in Resources */,
+				8B9413F429C96FA7001E679F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9413FA29C96FA8001E679F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94140429C96FA8001E679F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B9413E829C96FA5001E679F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9413F229C96FA5001E679F /* ContentView.swift in Sources */,
+				8B9413F029C96FA5001E679F /* Employee_Tip_SplitterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9413F829C96FA8001E679F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B94140129C96FA8001E679F /* Employee_Tip_SplitterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B94140229C96FA8001E679F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B94140B29C96FA8001E679F /* Employee_Tip_SplitterUITests.swift in Sources */,
+				8B94140D29C96FA8001E679F /* Employee_Tip_SplitterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B9413FE29C96FA8001E679F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9413EB29C96FA5001E679F /* Employee Tip Splitter */;
+			targetProxy = 8B9413FD29C96FA8001E679F /* PBXContainerItemProxy */;
+		};
+		8B94140829C96FA8001E679F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9413EB29C96FA5001E679F /* Employee Tip Splitter */;
+			targetProxy = 8B94140729C96FA8001E679F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B94140E29C96FA8001E679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B94140F29C96FA8001E679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B94141129C96FA8001E679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Employee Tip Splitter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "meadetechnologies.Employee-Tip-Splitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B94141229C96FA8001E679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Employee Tip Splitter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "meadetechnologies.Employee-Tip-Splitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B94141429C96FA8001E679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "meadetechnologies.Employee-Tip-SplitterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Employee Tip Splitter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Employee Tip Splitter";
+			};
+			name = Debug;
+		};
+		8B94141529C96FA8001E679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "meadetechnologies.Employee-Tip-SplitterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Employee Tip Splitter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Employee Tip Splitter";
+			};
+			name = Release;
+		};
+		8B94141729C96FA8001E679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "meadetechnologies.Employee-Tip-SplitterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Employee Tip Splitter";
+			};
+			name = Debug;
+		};
+		8B94141829C96FA8001E679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "meadetechnologies.Employee-Tip-SplitterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Employee Tip Splitter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B9413E729C96FA5001E679F /* Build configuration list for PBXProject "Employee Tip Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B94140E29C96FA8001E679F /* Debug */,
+				8B94140F29C96FA8001E679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B94141029C96FA8001E679F /* Build configuration list for PBXNativeTarget "Employee Tip Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B94141129C96FA8001E679F /* Debug */,
+				8B94141229C96FA8001E679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B94141329C96FA8001E679F /* Build configuration list for PBXNativeTarget "Employee Tip SplitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B94141429C96FA8001E679F /* Debug */,
+				8B94141529C96FA8001E679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B94141629C96FA8001E679F /* Build configuration list for PBXNativeTarget "Employee Tip SplitterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B94141729C96FA8001E679F /* Debug */,
+				8B94141829C96FA8001E679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B9413E429C96FA5001E679F /* Project object */;
+}
